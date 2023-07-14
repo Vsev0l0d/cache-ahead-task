@@ -1,9 +1,9 @@
 package handler
 
 import (
-	. "cache-ahead-task/cache"
-	"cache-ahead-task/config"
-	. "cache-ahead-task/logger"
+	. "cache-ahead-task/internal/cache"
+	"cache-ahead-task/internal/config"
+	. "cache-ahead-task/internal/logger"
 	"encoding/json"
 	"fmt"
 	"net/http"

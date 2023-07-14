@@ -1,8 +1,8 @@
 package db
 
 import (
-	. "cache-ahead-task/logger"
-	"cache-ahead-task/model"
+	. "cache-ahead-task/internal/logger"
+	"cache-ahead-task/internal/model"
 	"github.com/jmoiron/sqlx"
 )
 

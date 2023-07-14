@@ -5,7 +5,7 @@
 package mock_db
 
 import (
-	model "cache-ahead-task/model"
+	"cache-ahead-task/internal/model"
 	reflect "reflect"
 
 	gomock "go.uber.org/mock/gomock"

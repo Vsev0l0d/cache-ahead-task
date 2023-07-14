@@ -1,10 +1,10 @@
 package cache
 
 import (
-	"cache-ahead-task/config"
-	"cache-ahead-task/db"
-	. "cache-ahead-task/logger"
-	"cache-ahead-task/model"
+	"cache-ahead-task/internal/config"
+	"cache-ahead-task/internal/db"
+	. "cache-ahead-task/internal/logger"
+	"cache-ahead-task/internal/model"
 	"fmt"
 	"github.com/go-co-op/gocron"
 	"sync"

@@ -1,8 +1,8 @@
 package db
 
 import (
-	"cache-ahead-task/config"
-	. "cache-ahead-task/logger"
+	"cache-ahead-task/internal/config"
+	. "cache-ahead-task/internal/logger"
 	"fmt"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
